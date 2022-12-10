@@ -2,6 +2,7 @@
 
 ### CONTACTS:
 7-XX-XX-XX-XX-48
+
 xxxxxxxxxxxxxxx@gmail.com
 
 ### ABOUT ME:
@@ -17,9 +18,13 @@ xxxxxxxxxxxxxxx@gmail.com
 
 ### CODE SAMPLE
 `git init`
+
 `git add .`
+
 `git commit -m`
+
 `git push origin master`
+
 
 ### EXPERIENCE
 * [GitHub](https://github.com/rinedein)
