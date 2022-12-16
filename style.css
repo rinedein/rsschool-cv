@@ -9,13 +9,22 @@ body {
     color: rgb(255, 255, 255);
     font-family: Helvetica, sans-serif;
 }
+.main {
+    margin: 0 auto 0 auto;
+    display: flex;
+    width: 1100px;
+}
+header {
+    margin: 0 auto 0 auto;
+    font-family: Helvetica, sans-serif;
+    width: 1100px;
+}
 .leftbox {
     background-color: #1b0242;
     text-align: right;
     width: 300px;
     left: 30px;
     height: 700px;
-    margin: 10px;
     padding-left: 20px;
     padding-top: 30px;
     padding-right: 20px;
@@ -25,10 +34,10 @@ body {
     height: 700px;
     padding-left: 20px;
     padding-top: 30px;
-    margin: 10px;
     float: left;
 }
-.footer {
+footer {
     background-color: black;
-
+    margin: 0 auto 0 auto;
+    width: 1100px;
 }
