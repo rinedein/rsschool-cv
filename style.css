@@ -1,6 +1,34 @@
 li {
     list-style-type: none;
 }
-ul {
-    
+ul {   
+
+}
+body {
+    background:#0d0120;
+    color: rgb(255, 255, 255);
+    font-family: Helvetica, sans-serif;
+}
+.leftbox {
+    background-color: #1b0242;
+    text-align: right;
+    width: 300px;
+    left: 30px;
+    height: 700px;
+    margin: 10px;
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-right: 20px;
+}
+.rightbox {
+    width: 750px;
+    height: 700px;
+    padding-left: 20px;
+    padding-top: 30px;
+    margin: 10px;
+    float: left;
+}
+.footer {
+    background-color: black;
+
 }
