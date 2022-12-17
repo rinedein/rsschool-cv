@@ -16,13 +16,10 @@ header {
     font-family: Helvetica, sans-serif;
     width: 1100px;
     height: 150px;
-    padding-left: 20px;
-    padding-top: 30px;
-    padding-right: 20px;
 }
 .leftbox {
-    background-color: #1b0242;
-    box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+    background-color: #4c044e;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
     text-align: right;
     width: 300px;
     left: 30px;
@@ -34,18 +31,23 @@ header {
 .rightbox {
     width: 750px;
     height: 1100px;
+    margin-left: 10px;
     padding-left: 20px;
     padding-top: 30px;
-    box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
     float: left;
+    text-indent: 4%;
 }
 footer {
     background-color: black;
-    
     margin: 0 auto 0 auto;
     width: 1100px;
-    height: 160px;
+    height: 150px;
     font-family: Helvetica, sans-serif;
+    overflow: hidden;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
 }
 .endcircle {
     width: 270px;
@@ -83,14 +85,31 @@ footer {
 .footer__img {
     display: flex;
     align-items: center;
+    justify-content: center;
     margin-top: 2%;
     font-size: 280%;
     font-family: Verdana, Arial, Helvetica, sans-serif; 
-    text-align: justify
+    text-align: justify;
 }
 .logo {
-    width: 10%;
-    height: 10%;
+    width: 30%;
+    height: 30%;
     margin-top: 2%;
     margin-left: 2%;
+}
+.header__title {
+    width: auto;
+    height: auto;
+}
+
+.header__container {
+    display: flex;
+    width: 1100px;
+    height: 200px;
+    justify-content:space-between;
+}
+.header__box {
+padding-top: 0px;
+text-align: right;
+font-size: medium;
 }
