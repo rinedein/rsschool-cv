@@ -1,0 +1,114 @@
+li {
+    list-style-type: none;
+}
+body {
+    background:#0d0120;
+    color: rgb(255, 255, 255);
+    font-family: Helvetica, sans-serif;
+}
+.main {
+    margin: 0 auto 0 auto;
+    display: flex;
+    width: 1100px;
+}
+header {
+    margin: 0 auto 0 auto;
+    font-family: Helvetica, sans-serif;
+    width: 1100px;
+    height: 150px;
+}
+.leftbox {
+    background-color: #4c044e;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+    text-align: right;
+    width: 300px;
+    left: 30px;
+    height: 1100px;
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-right: 20px;
+}
+.rightbox {
+    width: 750px;
+    height: 1100px;
+    margin-left: 10px;
+    padding-left: 20px;
+    padding-top: 30px;
+    float: left;
+    text-indent: 4%;
+}
+footer {
+    margin: 0 auto 0 auto;
+    width: 1100px;
+    height: 150px;
+    font-family: Helvetica, sans-serif;
+    overflow: hidden;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
+}
+.endcircle {
+    width: 270px;
+    height: 270px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 20%;
+    overflow: hidden;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    background-color: #43217a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle {
+    width: 250px;
+    height: 250px;
+    box-shadow: rgba(151, 16, 117, 0.836) 0px 10px 36px 0px, rgba(243, 19, 224, 0.233) 0px 0px 0px 1px;
+    overflow: hidden;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+.circle__img {
+    display: block;
+    width:100%;
+    border-radius: 49%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+.footer__img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+    font-size: 280%;
+    font-family: Verdana, Arial, Helvetica, sans-serif; 
+    text-align: justify;
+}
+.logo {
+    width: 30%;
+    height: 30%;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+.header__title {
+    width: auto;
+    height: auto;
+}
+
+.header__container {
+    display: flex;
+    width: 1100px;
+    height: 200px;
+    justify-content:space-between;
+}
+.header__box {
+padding-top: 0px;
+text-align: right;
+font-size: medium;
+}
