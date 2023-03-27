@@ -91,25 +91,24 @@
             </article>
             <pre>
                 <code>
-                    {
-                        t_state *state;
-                        int i;
-
-                        state = (t_state*)state_v;
-                        while (state-&gt;cur_eat_count &lt; state-&gt;must_eat_count)
-                        {
-                            i = 0;
-                            while (i &lt; state- &gt; amount)
-                                if (sem_wait(state-&lt; philos[i++].eat_count_m))
-                                    return ((void*)0);
-                            state-&lt;cur_eat_count++;
-                        }
-                        if (display_message(&amp;state-&gt;philos[0], TYPE_OVER))
-                            return ((void*)0);
-                        if (sem_post(state-&gt;somebody_dead_m))
-                            return ((void*)0);
-                        return ((void*)0);
-                    }
+&nbsp;&nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;t_state *state;
+&nbsp;&nbsp;&nbsp;&nbsp;int i;
+&nbsp;&nbsp;&nbsp;&nbsp;state = (t_state*)state_v;
+&nbsp;&nbsp;&nbsp;&nbsp;while (state-&gt;cur_eat_count &lt; state-&gt;must_eat_count)
+&nbsp;&nbsp;&nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i = 0;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;while (i &lt; state- &gt; amount)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if (sem_wait(state-&lt; philos[i++].eat_count_m))
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return ((void*)0);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;state-&lt;cur_eat_count++;
+&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;if (display_message(&amp;state-&gt;philos[0], TYPE_OVER))
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return ((void*)0);
+&nbsp;&nbsp;&nbsp;&nbsp;if (sem_post(state-&gt;somebody_dead_m))
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return ((void*)0);
+&nbsp;&nbsp;&nbsp;&nbsp;return ((void*)0);
+&nbsp;&nbsp;&nbsp;}
                 </code>
             </pre>
         </div>
